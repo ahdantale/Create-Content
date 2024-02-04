@@ -1,0 +1,8 @@
+.content-font{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content-preview-text {
+    white-space: pre-wrap;
+    font-size: 14pt;
+}

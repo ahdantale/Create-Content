@@ -1,0 +1,15 @@
+td{
+  word-break:break-all;
+}
+
+@media (max-width: 575.98px) { 
+    .btn{
+        font-size: 10pt;
+    }
+}
+
+
+
+
+
+

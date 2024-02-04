@@ -1,0 +1,12 @@
+.nav-image{
+    height: 160px;
+}
+
+@media (max-width : 575.98px){
+    .nav-image{
+        display: none;
+    }
+    .nav-link>span>span{
+        display: none
+    }
+}

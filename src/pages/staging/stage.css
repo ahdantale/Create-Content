@@ -1,0 +1,26 @@
+.stage-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 190px 1fr;
+    max-width: 100%;
+}
+
+.sidebar-container {
+    height: 100%;
+    grid-column: 1 / 2;
+    max-width: 100%;
+}
+
+.outlet-container {
+    height: 100%;
+    grid-column: 2 / 3;
+    max-width: 100%;
+}
+
+
+@media (max-width: 575.98px) { 
+    .stage-container {
+        grid-template-columns: 50px 1fr;
+        max-width: 100%;
+    }
+}

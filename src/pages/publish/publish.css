@@ -1,0 +1,12 @@
+.content-publish-font{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content-publish-author-font {
+    font-family: "Menlo","arial";
+}
+
+.content-publish-text {
+    white-space: pre-wrap;
+    font-size: 14pt;
+}
