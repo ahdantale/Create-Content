@@ -19,7 +19,7 @@ const Publish = () =>{
         axios.get(apiURL + '/api/contents' +`/${publish_url}`)
             .then((response)=>{
                 setDocument({
-                    author : publish_url.split("_")[0],
+                    author : response.data.data.creator.username,
                     title : response.data.data.content.title,
                     description : response.data.data.content.description,
                     links : response.data.data.content.links
